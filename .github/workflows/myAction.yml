@@ -14,3 +14,5 @@ jobs:
         run: |
           echo Add other action to build,
           echo test, and deploy your project.
+      - name: use pwd
+        run: echo ${{secrets.MY_PWD}}
